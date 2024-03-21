@@ -1,0 +1,50 @@
+[
+  {
+    "activity_score": 87.20285034179688,
+    "activity_threshold": 50.0,
+    "buffer_id_start": 0,
+    "insertion point": 128368,
+    "nr_runs": 0,
+    "audio_file": "./recordings/audio_multi_buf_run_0.wav"
+  },
+  {
+    "activity_score": 76.50994873046875,
+    "activity_threshold": 50.0,
+    "buffer_id_start": 1,
+    "insertion point": 94288,
+    "nr_runs": 3,
+    "audio_file": "./recordings/audio_multi_buf_run_3.wav"
+  },
+  {
+    "activity_score": 51.91522216796875,
+    "activity_threshold": 50.0,
+    "buffer_id_start": 0,
+    "insertion point": 19312,
+    "nr_runs": 5,
+    "audio_file": "./recordings/audio_multi_buf_run_5.wav"
+  },
+  {
+    "activity_score": 51.89862060546875,
+    "activity_threshold": 50.0,
+    "buffer_id_start": 4,
+    "insertion point": 52256,
+    "nr_runs": 11,
+    "audio_file": "./recordings/audio_multi_buf_run_11.wav"
+  },
+  {
+    "activity_score": 66.87789916992188,
+    "activity_threshold": 50.0,
+    "buffer_id_start": 1,
+    "insertion point": 155632,
+    "nr_runs": 14,
+    "audio_file": "./recordings/audio_multi_buf_run_14.wav"
+  },
+  {
+    "activity_score": 55.9560546875,
+    "activity_threshold": 50.0,
+    "buffer_id_start": 2,
+    "insertion point": 88608,
+    "nr_runs": 18,
+    "audio_file": "./recordings/audio_multi_buf_run_18.wav"
+  }
+]

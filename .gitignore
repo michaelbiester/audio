@@ -1,0 +1,9 @@
+# supplementary documents
+Audio_Processing_on_RPI.docx
+hotspot.txt
+nmcli_hotspot.txt
+
+# wav files in recordings folder 
+recordings/*.wav
+
+src/readme.txt

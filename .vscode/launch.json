@@ -1,0 +1,59 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "audio recording 3b",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "C:/Users/micha/projects/raspi4/audio/src/audio_recording_3b.py",
+            "console": "integratedTerminal",
+            "args": [
+                "C:/Users/micha/projects/raspi4/audio/src/cfg_audio_recording_3.json",
+                "20",
+                "50",
+                "./recordings/audio_multi_buf.wav",
+                "./recordings/audio_multi_buf.json"
+            ]
+        },
+        {
+            "name": "audio multi buffer with sound activity",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "C:/Users/micha/projects/raspi4/audio/src/audio_recording_3a.py",
+            "console": "integratedTerminal",
+            "args": [
+                "C:/Users/micha/projects/raspi4/audio/src/cfg_audio_recording_3.json",
+                "60",
+                "20",
+                "./recordings/audio_multi_buf.wav"
+            ]
+        },
+        {
+            "name": "audio multi buffer recording",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "C:/Users/micha/projects/raspi4/audio/src/audio_recording_2.py",
+            "console": "integratedTerminal",
+            "args": [
+                "C:/Users/micha/projects/raspi4/audio/src/cfg_audio_recording_2.json",
+                "6",
+                "./recordings/audio_multi_buf.wav"
+            ]
+        },
+        {
+            "name": "audio recording",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "C:/Users/micha/projects/raspi4/audio/src/audio_recording_1.py",
+            "console": "integratedTerminal",
+            "args": [
+                "C:/Users/micha/projects/raspi4/audio/src/cfg_audio_recording1.json",
+                "4",
+                "./recordings/audio_4s.wav"
+            ]
+        }
+    ]
+}
