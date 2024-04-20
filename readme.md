@@ -48,9 +48,9 @@ The code has been tested on a PC with Windows 11 and Python 3.11 and a Raspberry
 
 6) `src\ws_client_audio_2.py` together with `src\ws_server_audio_2.py` are two separate programs which shall accomplish these tasks:
 
-The server program shall be started first (on a PC#1 or on a Raspberry Pi). The program shall capture audio data using a Soundblaster Audio card. The client program which must be started on another PC#2 **after** the start of the server program tries to connect to the server by establishing a websocket connection. If the connection has been succesful the server start caputuring audio data and may emit audio events if some sound activity has been detected. An audio file stores audio data into a file on the server. The client is notified. If the client has configured the server to enable download of audio files, the server sents audio files over websocket to the client.
+The server program shall be started first (on a PC#1 or on a Raspberry Pi). The program shall capture audio data using a Soundblaster Audio card. The client program which must be started on another PC#2 **after** the start of the server program. The client tries to connect to the server by establishing a websocket connection. If the connection has been succesful the server starts capturing audio data and may emit audio events if some sound activity (above some user defined threshold) has been detected. Recorded audio data are stored locally on the server. The client is notified accordingly. If the client has configured the server to *enable* download of audio files, the server sents audio files over websocket to the client.
 
-The flow of information between client and server program is shown here:
+A figure shows the flow of information between client and server program:
 
 ![flow of info](figures/client_server_demo.jpg)
 
