@@ -1,0 +1,5 @@
+{
+    "enable_downloads": true,
+    "len_recent_events": 10,
+    "recordings_dir": "recordings/downloads"
+}

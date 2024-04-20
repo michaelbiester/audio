@@ -42,9 +42,12 @@ The code has been tested on a PC with Windows 11 and Python 3.11 and a Raspberry
 
     a) `src\audio_recording_3a.py` has shown some deficiencies when being run on the Raspberry Pi (overflow messages). On a PC no such events occurred. On the Raspberry Pi overflow messages can be avoided if the input stream is stopped and closed before writing buffers into an audio file. Then the stream is restarted.  Additionally to writing audio samples into files once a sound event was detected the parameters of each sound event are appended to a list. Prior to exiting the program the list of sound event parameters are stored in a `*.json` file.
 
+6) `src\ws_client_audio_2.py` together with `src\ws_server_audio_2.py` are two separate programs which shall accomplish these tasks:
+
+The server program shall be started first (on a PC#1 or on a Raspberry Pi). The program shall capture audio data using a Soundblaster Audio card. The client program which must be started on another PC#2 **after** the start of the server program tries to connect to the server by establishing a websocket connection. If the connection has been succesful the server start caputuring audio data and may emit audio events if some sound activity has been detected. An audio file stores audio data into a file on the server. The client is notified. If the client has configured the server to enable download of audio files, the server sents audio files over websocket to the client.
+
+The flow of information between client and server program is shown here:
+
+![flow of info](figures\client_server_demo.jpg "flow of info")
 
 
-
-
-
-JupyterNb\AudioProcessing\Audio_1.ipynb
