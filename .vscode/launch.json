@@ -5,6 +5,34 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "ws_client_audio_2",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "C:/Users/micha/projects/raspi4/audio/src/ws_client_audio_2.py",
+            "console": "integratedTerminal",
+            "args": ["C:/Users/micha/projects/raspi4/audio/src/cfg_ws_client_audio_2.json", "ws://192.168.0.193:8765"]
+        },
+        {
+            "name": "ws_server_audio_2",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "C:/Users/micha/projects/raspi4/audio/src/ws_server_audio_2.py",
+            "console": "integratedTerminal",
+            "args": [
+                "src/cfg_ws_server_audio_2.json"
+            ]
+        },
+        {
+            "name": "ws_server_audio_1",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "C:/Users/micha/projects/raspi4/audio/src/ws_server_audio_1.py",
+            "console": "integratedTerminal",
+            "args": [
+                "src/cfg_ws_server_audio_1.json"
+            ]
+        },
+        {
             "name": "audio recording 3b",
             "type": "debugpy",
             "request": "launch",

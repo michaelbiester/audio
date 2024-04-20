@@ -1,0 +1,15 @@
+{
+    "device_index": 1,
+    "channels": 1,
+    "samplerate_hz": 44100,
+    "buffer_duration_s": 4.0,
+    "nr_buffers": 5,
+    "nr_records_to_file": 3,
+    "chunk_mod": 10,
+    "host": "0.0.0.0",
+    "ws_port": 8765,
+    "activity_threshold": 20.0,
+    "nr_cycles": 50,
+    "out_audio_file_wav": "recordings/recording_server_.wav",
+    "len_recent_events": 30
+}
