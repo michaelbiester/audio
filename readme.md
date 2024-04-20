@@ -48,6 +48,6 @@ The server program shall be started first (on a PC#1 or on a Raspberry Pi). The 
 
 The flow of information between client and server program is shown here:
 
-![flow of info](\figures\client_server_demo.jpg "flow of info")
+![flow of info](figures/client_server_demo.jpg)
 
 
