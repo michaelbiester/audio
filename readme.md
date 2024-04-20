@@ -16,9 +16,9 @@ The code has been tested on a PC with Windows 11 and Python 3.11 and a Raspberry
 
 2) folder `src` provides some test programs for capturing audio data. These programs work on a PC and a Raspberry Pi. See setup used for Raspberry Pi.
 
-!(figures/raspi_wlan_soundcard_and_microfone.jpg)
+![raspi](figures/raspi_wlan_soundcard_and_microfone.jpg)
 
-!(figures/soundcard_and_microfone.jpg)
+![soundcard and microfone](figures/soundcard_and_microfone.jpg)
 
 4) other folders are only required to store audio data,  configuration files `cfg_xxyzzy.json` and support files to work with `VS Code`
 
